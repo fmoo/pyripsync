@@ -1,0 +1,14 @@
+ripsync has the following dependencies:
+
+* python audio tools (http://sourceforge.net/projects/audiotools/files/latest/download)
+For ripping CDs to mp3:
+
+* cddb-py (http://cddb-py.sourceforge.net/) 
+For automatic lookup of artist info, etc:
+
+* boto (pip, https://github.com/boto/boto)
+For synchronization to Amazon S3 for backup:
+
+* dbus-python
+For listening to hardware (hal) events in linux
+
